@@ -13,7 +13,8 @@
           "options": [
             "--pnpm",
             "--embroider",
-            "--ci-provider=github"
+            "--ci-provider=github",
+            "--typescript"
           ]
         }
       ]
