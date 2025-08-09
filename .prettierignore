@@ -11,3 +11,6 @@
 /pnpm-lock.yaml
 ember-cli-update.json
 *.html
+
+# Specific ignore
+public/store/datastore.js
