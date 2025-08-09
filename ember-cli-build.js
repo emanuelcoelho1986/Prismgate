@@ -13,6 +13,7 @@ module.exports = function (defaults) {
         DEPRECATE_STORE_EXTENDS_EMBER_OBJECT: false,
       },
     },
+    'ember-cli-babel': { enableTypeScriptTransform: true },
     // Add options here
   });
 
