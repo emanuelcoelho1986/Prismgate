@@ -26,6 +26,19 @@ module.exports = function (defaults) {
       {
         package: 'qunit',
       },
+      
     ],
+    packagerOptions: {
+      webpackConfig: {
+        module: {
+          rules: [
+            {
+              test: /\.css$/i,
+              use: ['postcss-loader'],
+            },
+          ],
+        },
+      },
+    },
   });
 };
