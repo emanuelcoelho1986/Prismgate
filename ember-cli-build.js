@@ -26,7 +26,6 @@ module.exports = function (defaults) {
       {
         package: 'qunit',
       },
-      
     ],
     packagerOptions: {
       webpackConfig: {
