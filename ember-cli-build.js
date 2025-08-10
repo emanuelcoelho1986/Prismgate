@@ -14,31 +14,9 @@ module.exports = function (defaults) {
       },
     },
     'ember-cli-babel': { enableTypeScriptTransform: true },
+
     // Add options here
   });
 
-  const { Webpack } = require('@embroider/webpack');
-  return require('@embroider/compat').compatBuild(app, Webpack, {
-    staticAddonTestSupportTrees: true,
-    staticAddonTrees: true,
-    staticEmberSource: true,
-    staticInvokables: true,
-    skipBabel: [
-      {
-        package: 'qunit',
-      },
-    ],
-    packagerOptions: {
-      webpackConfig: {
-        module: {
-          rules: [
-            {
-              test: /\.css$/i,
-              use: ['postcss-loader'],
-            },
-          ],
-        },
-      },
-    },
-  });
+  return app.toTree();
 };
