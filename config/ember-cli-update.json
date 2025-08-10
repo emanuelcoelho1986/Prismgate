@@ -12,7 +12,6 @@
           "isBaseBlueprint": true,
           "options": [
             "--pnpm",
-            "--embroider",
             "--ci-provider=github",
             "--typescript"
           ]
