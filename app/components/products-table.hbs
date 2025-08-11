@@ -1,0 +1,20 @@
+<section>
+    <table>
+        <thead>
+            <tr>
+                {{#each @columns as |column|}}
+                <th>{{column.name}}</th>
+                {{/each}}
+            </tr>
+        </thead>
+        <tbody>
+            {{#each @products as |product|}}
+            <tr>
+                 {{#each product.enrichedPropertyValues as |property|}}
+                <td>{{property.value}}</td>
+                {{/each}}
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</section>
