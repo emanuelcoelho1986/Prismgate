@@ -6,7 +6,7 @@ import type { EnumeratedProperty, Property } from 'global';
 export default class PropertySerializer extends JSONAPISerializer {
     normalizeFindAllResponse(store: Store,
                 primaryModelClass: ModelSchema,
-                payload: {},
+                payload: [],
                 id: string | number,
                 requestType: string) {
 
