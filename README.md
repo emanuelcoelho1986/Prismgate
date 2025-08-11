@@ -66,4 +66,3 @@ The live application is available at: [https://prismgate.vercel.app/](https://pr
 - New Warp configuration is being a nightamre, I'm regressing to a version I don't send most of the time reading (5.12 LTS)
 - Generate Models
   - Since the datastore its not an API, I would have to create all the relationships myself. Becuase of this, I created custom getters in the models I need
-- 
