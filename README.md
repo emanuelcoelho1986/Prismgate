@@ -63,3 +63,6 @@ The live application is available at: [https://prismgate.vercel.app/](https://pr
   - The `ember generate model --typescript` in `EmberJS 6.6` doesn't create models with `.ts`. After some research, I found the following answer to this in EmberJS' Discord from Chris Thuburn, member of Ember-data, `To my knowledge, we’ve never created a TS blueprint`. This explains why I'm going to have a few JS files in the middle of TS. I'll try to convert them to `TS` in the end, but if it takes too long, I'll just keep them.
 - Based on the info above, I decided to generate a new project with just the `--typescript` blueprint
 - Start generating the required models
+- New Warp configuration is being a nightamre, I'm regressing to a version I don't send most of the time reading (5.12 LTS)
+- Generate Models
+  - Since the datastore its not an API, I would have to create all the relationships myself. Becuase of this, I created custom getters in the models I need
