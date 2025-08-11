@@ -52,7 +52,7 @@ The live application is available at: [https://prismgate.vercel.app/](https://pr
 ### Dev log
 
 - Init EmberJS Project
-- Follow the documentation. While checking the documentation, I found out that it's been so long since I used EmberJS (3.18) that everything has changed. I found references that Ember is trying to modernise itself using Vite ([Embroider](https://github.com/embroider-build/embroider) and Ember-data has now its standalone lib, [WarpDrive](https://emberjs.github.io/data/).
+- Follow the documentation. While checking the documentation, I found out that it's been so long since I used EmberJS (3.18) that everything has changed. I found references that Ember is trying to modernise itself using Vite ([Embroider](https://github.com/embroider-build/embroider) and Ember-data has now its standalone lib, [WarpDrive](https://emberjs.github.io/data/)).
 - I tried to integrate these new features, but it was taking so much time for this project that I dropped it after around 2 to 4 hours of work.
 - Started the project with Embroider and Typescript blueprint
 - Set up Vercel to deploy the EmberJS app
