@@ -16,6 +16,9 @@ module.exports = function (defaults) {
     'ember-cli-babel': { enableTypeScriptTransform: true },
 
     // Add options here
+    'ember-welcome-page': {
+      enabled: true,
+    },
   });
 
   return app.toTree();
