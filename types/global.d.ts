@@ -2,7 +2,7 @@ import '@glint/environment-ember-loose';
 
 interface PropertyValue {
   property_id: number;
-  value: string | number; // could refine based on the property type mapping
+  value: string | number;
 }
 
 interface Product {
